@@ -86,6 +86,7 @@
     },
     {
       "type": "shell",
+      "start_retry_timeout": "4h",
       "inline": [
         "rm -rf /tmp/*"
       ]
