@@ -81,7 +81,7 @@
     {
       "type": "shell",
       "remote_path": "/tmp/run-winupdates.bat",
-      "execute_command": "cmd /c c:/utils/psexec -u vagrant -p vagrant c:/windows/temp/run-winupdates.bat",
+      "execute_command": "cmd /c c:/windows/temp/psexec -u vagrant -p vagrant c:/windows/temp/run-winupdates.bat",
       "scripts": "./scripts/run-winupdates.bat"
     },
     {
