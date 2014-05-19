@@ -37,7 +37,7 @@ function Check-ContinueRestartOrEnd() {
             }
             
             Write-Host "Restart Required - Restarting..."
-            Restart-Computer
+            Restart-Computer -Force
         }
         default { 
             Write-Host "Unsure If A Restart Is Required" 
